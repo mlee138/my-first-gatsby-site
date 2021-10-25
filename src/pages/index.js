@@ -18,3 +18,17 @@ const IndexPage = () => {
 
 // Step 3: Export your component
 export default IndexPage;
+
+/*
+====NOTES====
+
+general
+- gatsby is a static html generator. During build time, it will do any data queries and generate static HTML pages
+- Data layer connects the data from the outside with the app
+  - ie: database, firebase
+  - to connect data to the data layer and to receive it into your html, plugins are required 
+    - (see gatsby-config for more info)
+- gatsby has a "built-in" router as the pages folder
+
+
+*/
